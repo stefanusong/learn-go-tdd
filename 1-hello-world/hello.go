@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 var Prefixes = map[string]string{
 	"english": "Hello",
@@ -21,8 +21,4 @@ func getPrefix(language string) string {
 	}
 
 	return "Hello, "
-}
-
-func main() {
-
 }
